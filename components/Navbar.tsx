@@ -1,6 +1,5 @@
 "use client";
 import React, { useContext, useState } from "react";
-import Image from "next/image";
 
 import { Context } from "@/context";
 import ThemeData from "./sections/navbar-sections/Theme-data";
@@ -19,7 +18,7 @@ import { MdOutlineKeyboardDoubleArrowUp } from "react-icons/md";
 
 const Navbar = () => {
   const { en, setEn, darkMode } = useContext(Context);
-  const [flag, setFlag] = useState<boolean>(false);
+  const [lang, setLang] = useState<boolean>(false);
 
   return (
     <>
@@ -35,7 +34,7 @@ const Navbar = () => {
             <Button
               sx={{ borderRadius: 10 }}
               onClick={() => {
-                setFlag((prev) => !prev);
+                setLang((prev) => !prev);
               }}
             >
               {en ? (
@@ -45,7 +44,7 @@ const Navbar = () => {
               )}
 
               <Box ml={1}>
-                {flag ? (
+                {lang ? (
                   <MdOutlineKeyboardDoubleArrowUp
                     style={darkMode ? { color: "white" } : { color: "black" }}
                   />
@@ -75,7 +74,7 @@ const Navbar = () => {
       </AppBar>
 
       {/* //! Select flag section */}
-      {flag ? (
+      {lang ? (
         <Box
           width={80}
           height={80}
@@ -95,7 +94,7 @@ const Navbar = () => {
               mb={1}
               sx={{ cursor: "pointer" }}
               onClick={() => {
-                setFlag((prev) => !prev);
+                setLang((prev) => !prev);
               }}
             >
               <Typography color={"red"}>En</Typography>
@@ -105,7 +104,7 @@ const Navbar = () => {
               mb={1}
               sx={{ cursor: "pointer" }}
               onClick={() => {
-                setFlag((prev) => !prev);
+                setLang((prev) => !prev);
               }}
             >
               <Typography
@@ -123,7 +122,7 @@ const Navbar = () => {
             <Box
               sx={{ cursor: "pointer" }}
               onClick={() => {
-                setFlag((prev) => !prev);
+                setLang((prev) => !prev);
               }}
             >
               <Typography
@@ -139,7 +138,7 @@ const Navbar = () => {
             <Box
               sx={{ cursor: "pointer" }}
               onClick={() => {
-                setFlag((prev) => !prev);
+                setLang((prev) => !prev);
               }}
             >
               <Typography color={"red"}>Fa</Typography>

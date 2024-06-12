@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 import { Context } from "@/context";
 
 import { Box, Button, Typography } from "@mui/material";
-import { BorderBottom, CustomBox, FaCustomBox } from "@/constant/Mui-styles";
+import { BorderBottom, FaCustomBox } from "@/constant/Mui-styles";
 
 import { FaPhoneAlt, FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";

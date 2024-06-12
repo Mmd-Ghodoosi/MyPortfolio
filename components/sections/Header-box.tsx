@@ -6,7 +6,7 @@ import TypeEN from "../Types/TypeEN";
 import Type from "../Types/Type";
 
 import { CustomBox } from "@/constant/Mui-styles";
-import { Typography, Box } from "@mui/material";
+import {  Box } from "@mui/material";
 
 const HeaderBox = () => {
   const { en, darkMode } = useContext(Context);

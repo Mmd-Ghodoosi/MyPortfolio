@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useContext } from "react";
+import React, {useContext } from "react";
 
 import { Box } from "@mui/material";
 import { Context } from "@/context";

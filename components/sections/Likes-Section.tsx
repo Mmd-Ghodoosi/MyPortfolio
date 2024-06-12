@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useContext } from "react";
+import React, { useContext } from "react";
 import { Context } from "@/context";
 
 import { BorderBottom, CustomBox, FaCustomBox } from "@/constant/Mui-styles";
