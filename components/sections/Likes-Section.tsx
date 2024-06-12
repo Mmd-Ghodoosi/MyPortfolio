@@ -5,19 +5,13 @@ import { Context } from "@/context";
 import { BorderBottom, CustomBox, FaCustomBox } from "@/constant/Mui-styles";
 import { Box, Typography } from "@mui/material";
 
-// @ts-ignore
-import AOS from "aos";
-
 const LikesSection = () => {
-  const { en,darkMode } = useContext(Context);
+  const { en, darkMode } = useContext(Context);
 
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
-    <Box data-aos="fade-up" color={darkMode ? "white" : "black"}>
+    <Box color={darkMode ? "white" : "black"}>
       {en ? (
-        //! English Section 
+        //! English Section
         <Box>
           <CustomBox mt={10}>
             <Typography variant="h5" style={BorderBottom}>
@@ -34,7 +28,7 @@ const LikesSection = () => {
           </CustomBox>
         </Box>
       ) : (
-         //! Persian Section 
+        //! Persian Section
         <Box>
           <FaCustomBox mt={10}>
             <Typography variant="h5" style={BorderBottom}>

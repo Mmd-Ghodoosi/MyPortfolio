@@ -5,7 +5,11 @@ import Typed from "typed.js";
 
 const Type = () => {
   const nameEl = useRef(null);
-  const strings = [" توسعه دهنده فول استک هستم", " فریلنسر هستم"];
+  const strings = [
+    "سلام محمد هستم",
+    " توسعه دهنده فول استک هستم",
+    " فریلنسر هستم",
+  ];
 
   useEffect(() => {
     const typedName = new Typed(nameEl.current, {
@@ -22,16 +26,16 @@ const Type = () => {
   }, []);
 
   return (
-      <Box>
-        <Typography
-          ref={nameEl}
-          zIndex={1}
-          variant="caption"
-          fontSize={15}
-          fontWeight={"bold"}
-          sx={{ userSelect: "none" }}
-        />
-      </Box>
+    <Box>
+      <Typography
+        ref={nameEl}
+        zIndex={1}
+        variant="caption"
+        fontSize={15}
+        fontWeight={"bold"}
+        sx={{ userSelect: "none" }}
+      />
+    </Box>
   );
 };
 

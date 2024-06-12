@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import "aos/dist/aos.css";
 
 import HeaderBox from "./sections/Header-box";
 import HeaderInfo from "./sections/Header-info";
