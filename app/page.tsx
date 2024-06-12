@@ -2,7 +2,7 @@
 import { useContext } from "react";
 
 import Navbar from "@/components/Navbar";
-import Content from "@/components/Content";
+import Content from "@/components/MainLayout";
 
 import { ToastContainer } from "react-toastify";
 
