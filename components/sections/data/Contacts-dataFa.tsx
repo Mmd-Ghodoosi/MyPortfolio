@@ -23,7 +23,7 @@ const ContactsDataFa = () => {
       </FaCustomBox>
 
       <FaCustomBox>
-        <CopyToClipboard text={"12345678910"}>
+        <CopyToClipboard text={"09917240664"}>
           <Button variant="text" color="info" onClick={FAcopyPhoneToClipboard}>
             <span
               style={{
@@ -34,7 +34,7 @@ const ContactsDataFa = () => {
             >
               <FaPhoneAlt />
             </span>
-            12345678910(کلیک برای کپی)
+            09917240664(کلیک برای کپی)
           </Button>
         </CopyToClipboard>
       </FaCustomBox>
