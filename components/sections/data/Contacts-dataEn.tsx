@@ -23,7 +23,7 @@ const ContactsDataEn = () => {
       </CustomBox>
 
       <CustomBox>
-        <CopyToClipboard text={"12345678910"}>
+        <CopyToClipboard text={"09917240664"}>
           <Button variant="text" color="info" onClick={copyPhoneToClipboard}>
             <span
               style={{
@@ -34,7 +34,7 @@ const ContactsDataEn = () => {
             >
               <FaPhoneAlt />
             </span>
-            +98 12345678910(click to copy)
+            +98 09917240664(click to copy)
           </Button>
         </CopyToClipboard>
       </CustomBox>
