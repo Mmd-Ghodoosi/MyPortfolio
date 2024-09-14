@@ -26,7 +26,8 @@ const SkillsDataEn = () => {
           <Typography variant="h6">Node Js</Typography>
           <Typography variant="h6">Express Js</Typography>
           <Typography variant="h6">Nest Js</Typography>
-            <Typography variant="h6">Java</Typography>
+          <Typography variant="h6">Java</Typography>
+          <Typography variant="h6">Spring Boot</Typography>
           <Typography variant="h6">MongoDB</Typography>
           <Typography variant="h6">MySQL</Typography>
         </Box>
